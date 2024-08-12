@@ -22,7 +22,6 @@ public class StudentControler {
 	
 	@Autowired
 	StudentRepository repo;
-	//get all the students 
 	//localhost:8080/students
 	@GetMapping("/students")
 	public List<Student> getAllStudents(){

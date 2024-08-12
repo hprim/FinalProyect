@@ -20,11 +20,7 @@ public class Student {
 	private float percentage;
 	@Column(name="student_branch")
 	private String branch;
-	
-	public Student() {
-		// TODO Auto-generated constructor stub
-	}
-	
+
 	
 	public Student(String name, float percentage, String branch) {
 		super();
